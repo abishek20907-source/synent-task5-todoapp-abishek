@@ -1,3 +1,6 @@
+// Smart To-Do Application
+// Handles adding, deleting and completing tasks
+
 let currentFilter = "all";
 
 let tasks =
