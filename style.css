@@ -159,3 +159,15 @@ margin-top:15px;
 width:100%;
 
 }
+button:hover{
+
+opacity:0.8;
+
+}
+
+
+input:focus{
+
+outline:2px solid black;
+
+}
