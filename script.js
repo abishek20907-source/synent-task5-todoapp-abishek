@@ -3,6 +3,8 @@
 
 let currentFilter = "all";
 
+// Load saved tasks from browser storage
+// Keeps tasks available after page refresh
 let tasks =
 JSON.parse(localStorage.getItem("tasks")) || [];
 
@@ -135,7 +137,7 @@ saveTasks();
 
 
 
-
+// Save updated task list into localStorage
 
 function saveTasks(){
 
